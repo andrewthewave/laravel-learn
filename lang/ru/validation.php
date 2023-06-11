@@ -137,7 +137,7 @@ return [
     'timezone' => 'The :attribute must be a valid timezone.',
     'unique' => 'The :attribute has already been taken.',
     'uploaded' => 'The :attribute failed to upload.',
-    'url' => 'The :attribute must be a valid URL.',
+    'url' => 'Неккоректный формат :attribute',
     'uuid' => 'The :attribute must be a valid UUID.',
 
     /*
@@ -170,6 +170,8 @@ return [
 
     'attributes' => [
         'name' => 'Имя',
+        'title' => 'Название',
+        'url' => 'URL',
     ],
 
 ];
